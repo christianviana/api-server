@@ -1,0 +1,52 @@
+[      {
+        "date": "2021-10-12T00:00:00.000",
+        "reminders": [
+          {
+            "note": "Acender a luz",
+            "time": "13:30",
+            "color": "#47F111",
+            "city": "BH"          
+          },
+          {
+            "note": "Apagar a luz",
+            "time": "14:30",
+            "color": "#F13911",
+            "city": "São Paulo"          
+          }        
+        ]
+      },
+      {
+        "date": "2021-10-25T00:00:00.000",
+        "reminders": [
+          {
+            "note": "Acender a luz 2",
+            "time": "15:30",
+            "color": "#077000",
+            "city": "BH"          
+          },
+          {
+            "note": "Apagar a luz 2",
+            "time": "16:30",
+            "color": "#F13911",
+            "city": "São Paulo"          
+          }        
+        ]
+      },
+      {
+        "date": "2021-10-26T00:00:00.000",
+        "reminders": [
+          {
+            "note": "Acender a luz 3",
+            "time": "13:30",
+            "color": "#700100",
+            "city": "BH"          
+          },
+          {
+            "note": "Apagar a luz 3",
+            "time": "14:30",
+            "color": "#47F111",
+            "city": "São Paulo"          
+          }        
+        ]
+      }
+]
