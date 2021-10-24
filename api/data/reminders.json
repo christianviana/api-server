@@ -3,14 +3,15 @@
       "data": [
       {
         "id": "9b1deb4d-3b7d-4bad-9bdd-2b0d7b3dcb6d",
-        "date": "2021-09-26T00:00:00.000",
+        "date": "2021-09-26T03:00:00.000Z",
+        "time": "14:30",
         "note": "Acender a luz",
         "color": "#47F111",
         "city": "BH"          
       },
       {
         "id": "8b1deb4d-3b7d-4bad-9bdd-2b0d7b3dcb6d",
-        "date": "2021-09-26T00:00:00.000",
+        "date": "2021-09-26T03:00:00.000Z",
         "time": "14:30",
         "note": "Apagar a luz",
         "color": "#F13911",
@@ -18,7 +19,7 @@
       },
       {
         "id": "7b1deb4d-3b7d-4bad-9bdd-2b0d7b3dcb6d",
-        "date": "2021-10-25T00:00:00.000",
+        "date": "2021-10-26T03:00:00.000Z",
         "time": "15:30",
         "note": "Acender a luz 2",
         "color": "#077000",
@@ -26,7 +27,7 @@
       },
       {
         "id": "6b1deb4d-3b7d-4bad-9bdd-2b0d7b3dcb6d",
-        "date": "2021-10-25T00:00:00.000",
+        "date": "2021-10-25T03:00:00.000Z",
         "time": "16:30",
         "note": "Apagar a luz 2",
         "color": "#F13911",
@@ -34,7 +35,7 @@
       },
       {
         "id": "5b1deb4d-3b7d-4bad-9bdd-2b0d7b3dcb6d",
-        "date": "2021-10-25T00:00:00.000",
+        "date": "2021-10-28T03:00:00.000Z",
         "time": "14:30",
         "note": "Acender a luz 3",
         "color": "#700100",
@@ -42,7 +43,7 @@
       },
       {
         "id": "4b1deb4d-3b7d-4bad-9bdd-2b0d7b3dcb6d",
-        "date": "2021-10-25T00:00:00.000",
+        "date": "2021-10-28T03:00:00.000Z",
         "time": "14:30",
         "note": "Apagar a luz 3",
         "color": "#47F111",

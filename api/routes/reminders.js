@@ -5,8 +5,9 @@ module.exports = app => {
       .get(controller.listReminders)
       .post(controller.saveReminders);
   
-    // app.route('/api/v1/reminders/:day')
-    //   .delete(controller.removeReminders)
-    //   .put(controller.updateReminders);
+     app.route('/api/v1/reminders/:reminderId')
+       .put(controller.updateReminders);
+     //.delete(controller.removeReminders)
+    
       
   }
