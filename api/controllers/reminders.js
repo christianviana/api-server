@@ -28,8 +28,7 @@ module.exports = app => {
     const { 
       reminderId,
     } = req.params;
-
-    console.log("Saving " + reminderId)
+    
     const foundReminderIndex = remindersMock.data.findIndex(reminder => reminder.id === reminderId);
 
     if (foundReminderIndex === -1) {
@@ -39,6 +38,8 @@ module.exports = app => {
         reminders: remindersMock,
       });
     } else {
+
+      console.log("Saving id =" + reminderId + ', color = ' + req.body.color); 
       const newReminder = {
         id: reminderId,
         date: req.body.date,
