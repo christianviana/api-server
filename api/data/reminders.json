@@ -4,31 +4,31 @@
       {
         "id": "9b1deb4d-3b7d-4bad-9bdd-2b0d7b3dcb6d",
         "date": "2021-09-26T03:00:00.000Z",
-        "time": "14:30",
+        "time": "05:30",
         "note": "Acender a luz",
-        "color": "#47F111",
+        "color": "#b1530b",
         "city": "BH"          
       },
       {
         "id": "8b1deb4d-3b7d-4bad-9bdd-2b0d7b3dcb6d",
         "date": "2021-09-26T03:00:00.000Z",
-        "time": "14:30",
+        "time": "20:30",
         "note": "Apagar a luz",
-        "color": "#F13911",
+        "color": "#2610cb",
         "city": "São Paulo"          
       },
       {
         "id": "7b1deb4d-3b7d-4bad-9bdd-2b0d7b3dcb6d",
-        "date": "2021-10-26T03:00:00.000Z",
+        "date": "2021-11-03T03:00:00.000Z",
         "time": "15:30",
-        "note": "Acender a luz 2",
-        "color": "#077000",
+        "note": "Contratar Christian",
+        "color": "#30b00c",
         "city": "BH"          
       },
       {
         "id": "6b1deb4d-3b7d-4bad-9bdd-2b0d7b3dcb6d",
         "date": "2021-10-25T03:00:00.000Z",
-        "time": "16:30",
+        "time": "18:30",
         "note": "Apagar a luz 2",
         "color": "#F13911",
         "city": "São Paulo"          
@@ -36,17 +36,17 @@
       {
         "id": "5b1deb4d-3b7d-4bad-9bdd-2b0d7b3dcb6d",
         "date": "2021-10-28T03:00:00.000Z",
-        "time": "14:30",
+        "time": "06:30",
         "note": "Acender a luz 3",
-        "color": "#700100",
+        "color": "#f36012",
         "city": "BH"          
       },
       {
         "id": "4b1deb4d-3b7d-4bad-9bdd-2b0d7b3dcb6d",
         "date": "2021-10-28T03:00:00.000Z",
-        "time": "14:30",
+        "time": "21:30",
         "note": "Apagar a luz 3",
-        "color": "#47F111",
+        "color": "#9a12d9",
         "city": "São Paulo"          
       }        
   ]
