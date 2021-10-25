@@ -59,6 +59,29 @@ module.exports = app => {
     }
   }
 
+  controller.removeReminders = (req, res) => {
+    const {
+      reminderId,
+    } = req.params;
 
+    const foundReminderIndex = remindersMock.data.findIndex(reminder => reminder.id === reminderId);
+
+    if (foundReminderIndex === -1) {
+      res.status(404).json({
+        message: 'Reminder not found.',
+        success: false,
+        reminders: remindersMock,
+      });
+    } else {
+      remindersMock.data.splice(foundReminderIndex, 1);
+      res.status(200).json({
+        message: 'Reminder found and deleted sucessfully!',
+        success: true,
+        reminders: remindersMock,
+      });
+    }
+  };
+  
   return controller;
+
 }

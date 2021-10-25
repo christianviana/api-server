@@ -6,8 +6,7 @@ module.exports = app => {
       .post(controller.saveReminders);
   
      app.route('/api/v1/reminders/:reminderId')
-       .put(controller.updateReminders);
-     //.delete(controller.removeReminders)
-    
+      .delete(controller.removeReminders)
+      .put(controller.updateReminders);       
       
   }
