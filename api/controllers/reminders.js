@@ -14,15 +14,15 @@ module.exports = app => {
     const day = req.query.day;
     result = remindersDB.reminders.data;
 
-    if (typeof year != 'undefined') {
+    if (year) {
       result = result.filter(rem => new Date(rem.date).getFullYear() == year);      
     }
 
-    if (typeof month != 'undefined') {
+    if (month) {
       result = result.filter(rem => new Date(rem.date).getMonth() == month);
     }
 
-    if (typeof day != 'undefined') {
+    if (day) {
       result = result.filter(rem => new Date(rem.date).getDate() == day);
     }
     
