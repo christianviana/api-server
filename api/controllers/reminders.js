@@ -8,24 +8,22 @@ module.exports = app => {
     reminders: remindersMock,
   } = remindersDB;
 
-  controller.listReminders = (req, res) => {
-    const year = req.query.year;
-    const month = req.query.month;
-    const day = req.query.day;
+  controller.listReminders = (req, res) => {    
+    const paramStartingDate = req.query.startingDate;
+    const paramEndDate = req.query.endDate;
     result = remindersDB.reminders.data;
 
-    if (year) {
-      result = result.filter(rem => new Date(rem.date).getFullYear() == year);      
+
+    if (paramStartingDate) {
+      startingDate = new Date(paramStartingDate);
+      result = result.filter(rem => new Date(rem.date) >= startingDate);      
     }
 
-    if (month) {
-      result = result.filter(rem => new Date(rem.date).getMonth() == month);
+    if (paramEndDate) {
+      endDate = new Date(paramEndDate);
+      result = result.filter(rem => new Date(rem.date) <= endDate);
     }
 
-    if (day) {
-      result = result.filter(rem => new Date(rem.date).getDate() == day);
-    }
-    
     res.status(200).json(result)
 
   };
