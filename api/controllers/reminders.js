@@ -8,7 +8,27 @@ module.exports = app => {
     reminders: remindersMock,
   } = remindersDB;
 
-  controller.listReminders = (req, res) => res.status(200).json(remindersDB.reminders.data  );
+  controller.listReminders = (req, res) => {
+    const year = req.query.year;
+    const month = req.query.month;
+    const day = req.query.day;
+    result = remindersDB.reminders.data;
+
+    if (typeof year != 'undefined') {
+      result = result.filter(rem => new Date(rem.date).getFullYear() == year);      
+    }
+
+    if (typeof month != 'undefined') {
+      result = result.filter(rem => new Date(rem.date).getMonth() == month);
+    }
+
+    if (typeof day != 'undefined') {
+      result = result.filter(rem => new Date(rem.date).getDate() == day);
+    }
+    
+    res.status(200).json(result)
+
+  };
 
   controller.saveReminders = (req, res) => {
     console.log("Saving " + req.body.note)
