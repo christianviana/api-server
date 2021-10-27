@@ -48,6 +48,38 @@
         "note": "Apagar a luz 3",
         "color": "#9a12d9",
         "city": "São Paulo"          
+      },     
+      {
+        "id": "4b1deb4d-3b7d-4bad-9bdd-2b0d7b3dcb6d",
+        "date": "2021-11-02T03:00:00.000Z",
+        "time": "08:30",
+        "note": "Apagar a luz 4",
+        "color": "#9a12d9",
+        "city": "São Paulo"          
+      },     
+      {
+        "id": "4b1deb4d-3b7d-4bad-9bdd-2b0d7b4dcb6d",
+        "date": "2021-11-02T03:00:00.000Z",
+        "time": "21:30",
+        "note": "Apagar a luz 4",
+        "color": "#f36012",
+        "city": "São Paulo"          
+      },     
+      {
+        "id": "4b1deb4d-3b7d-4bad-9bdd-2b0d7b5dcb6d",
+        "date": "2021-11-05T03:00:00.000Z",
+        "time": "21:30",
+        "note": "Apagar a luz 5",
+        "color": "#2610cb",
+        "city": "São Paulo"          
+      },     
+      {
+        "id": "4b1deb4d-3b7d-4bad-9bdd-2b0d7b6dcb6d",
+        "date": "2021-11-05T03:00:00.000Z",
+        "time": "21:30",
+        "note": "Apagar a luz 5",
+        "color": "#b1530b",
+        "city": "São Paulo"          
       }        
   ]
   }
